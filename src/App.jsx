@@ -1,15 +1,13 @@
-
-import TodoApp from "./companents/TodoApp"
+import React from 'react'
+import TodoApp from './components/TodoApp'
 
 function App() {
-
   return (
-   
-     <div>
-     <TodoApp></TodoApp>
-     </div>
-   
+    <div className='bg-[#0D0714]'>
+      <TodoApp></TodoApp>
+    </div>
   )
 }
 
 export default App
+
